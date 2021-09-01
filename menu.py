@@ -43,7 +43,7 @@ def buka_kasir():
 def pass_window():
     global usn, pswd, pass_wndw
     pass_wndw = Toplevel()
-    pass_wndw.iconbitmap("coffee.ico")
+    ##pass_wndw.iconbitmap("coffee.ico")
     pass_wndw.title("Login")
     pass_wndw.geometry("400x160")
 
@@ -80,6 +80,6 @@ def check_usn_pswd():
 def main_menu():
     global root
     root = Tk()
-    root.iconbitmap("coffee.ico")
+    ##root.iconbitmap("coffee.ico")
     FirstWindow(root)
     root.mainloop()

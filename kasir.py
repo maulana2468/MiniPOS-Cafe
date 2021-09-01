@@ -165,6 +165,6 @@ def mysql_connect():
 
 def main_kasir():
     kasir = Tk()
-    kasir.iconbitmap("coffee.ico")
+    ##kasir.iconbitmap("coffee.ico")
     Kasir(kasir)
     kasir.mainloop()
